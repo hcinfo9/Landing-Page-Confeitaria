@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.title{
+    flex-direction: column;
+    line-height: 0px;
+    margin-left: -20%;
+    font-size: 30px;
+   
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 65%;
+    gap:15px;
+    
+   
+    
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    left: 100%;
+}
+
+a:hover{
+    color:rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+
+.contato{
+    border: 2px solid rgb(132, 14, 201);
+    padding:10px;
+    border-radius: 10px;
+}
+
+.contato:hover{
+    background-color: rgba(132, 14, 201);
+    color: white;
+}
+
+li {
+    display: inline-block ;
+    margin: 20px;
+   
+    
+  
+   
+}
+
+h1{
+    font-weight: 300;
+    width:250px;
+    margin-top:22%;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: -20%;
+}
+aside {
+    margin-top: -5%;
+}
+
+h2{
+    font-size: 1.8em;
+    line-height: 0.8em;
+    
+}
+
+span{
+    color:rgb(132, 14, 201);
+}
+
+p{
+    line-height:20px;
+    max-width:500px;
+    
+}
+
+img{
+    width:100%;
+    max-width: 800px;
+    margin-left:350px;
+    margin-top: -15%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+    margin-left: -1%;
+    margin-top: 5%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width:50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    border:none;
+}
+
+form [type="submit"]:hover{
+    opacity: .5;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+     ;
+    
+}
+
+textarea{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+     ;
+}
+
+
+
+
+
+
+
